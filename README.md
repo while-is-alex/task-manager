@@ -52,7 +52,7 @@ The Task Manager has automatic features behind the scenes to provide efficient f
 ![automatic-reordering.png](https://i.ibb.co/rFzTd28/automatic-reordering.png)
 
 ### List sharing and protection
-Users can share a link to their lists with their friends, who are able to see all of the tasks contained in a list, their due-dates, their state of completion and their priority. Lists are protected for modification, so only the user who owns that list is able to modify it, and someone who is accessing the list on view-mode will not be able to change the lists name or add a new task or mark a task as complete or as a priority and, most importantly, won't be able to delete anything as well.
+Users can share a link to their list with others, who are then able to see all of the tasks contained in that list, as well as their due-dates, their state of completion and their priority. Lists are protected for modification, so only the user who owns that list is able to modify it, and someone who is accessing the list on view-mode will not be able to change the lists name or add a new task or mark a task as complete or as a priority and, most importantly, won't be able to delete anything as well.
 
 ![protected-list.png](https://i.ibb.co/f2hwHyv/protected-list.png)
 
