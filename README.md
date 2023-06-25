@@ -30,7 +30,7 @@ To implement that feature, however, a limitation of the initial version of the w
 
 1. lists also belong to users, and now there were lists that belonged to no one;
 
-2. these lists were getting registered to the database, but the user wouldn't have access to them anymore unless they registered to the website.
+2. these lists were getting registered to the database, but the user wouldn't have access to them ever again unless they registered to the website, so these lists were occupying unnecessary space in the database;
 
 To overcome the first problem, a "save to my lists" button was implemented, so registered users could decide which lists they wanted to keep and which they didn't. And to overcome the latter, the code was modified to periodically delete lists that didn't belong to an user.
 
