@@ -32,7 +32,7 @@ To implement that feature, however, a limitation of the initial version of the w
 
 2. these lists were getting registered to the database, but the user wouldn't have access to them ever again unless they registered to the website, so these lists were occupying unnecessary space in the database;
 
-To overcome the first problem, a "save to my lists" button was implemented, so registered users could decide which lists they wanted to keep and which they didn't. And to overcome the latter, the code was modified to periodically delete lists that didn't belong to an user.
+To overcome the first problem, a "save to my lists" button was implemented, so registered users could decide which lists they wanted to keep and which they didn't. And to overcome the second problem, the code was modified to periodically delete lists that didn't belong to an active user.
 
 ![home.png](https://i.ibb.co/F33xG2b/home-page.png)
 
