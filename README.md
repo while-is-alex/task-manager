@@ -28,7 +28,7 @@ The application supports unregistered users, who are able to fully utilize all o
 
 To implement that feature, however, a limitation of the initial version of the web-app had to be overcome, since every list that is created gets registered into the database. That's how the website remembers what tasks belong to which lists (a SQL parent-child relationship). But that created 2 problems: 
 
-1. lists also belong to users, and now there were lists that belong to no one;
+1. lists also belong to users, and now there were lists that belonged to no one;
 
 2. these lists were getting registered to the database, but the user wouldn't have access to them anymore unless they registered to the website.
 
