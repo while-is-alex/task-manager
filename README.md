@@ -37,7 +37,7 @@ To overcome the first problem, a "save to my lists" button was implemented, so r
 ![home.png](https://i.ibb.co/F33xG2b/home-page.png)
 
 ### Password protection
-When users register to the website, their e-mail is their unique identifier, and users can feel safe knowing that no one – even behind the scenes – has access to their password, as every password gets hashed and salted with Werkzeug security. So, in case of a leak, user's password are encripted with a salt length of 8, guaranteeing that even the most advanced computers won't be able to brute-force crack their password.
+When users register to the website, their e-mail is their unique identifier, and users can feel safe knowing that no one – even behind the scenes – has access to their password, as every password gets hashed and salted with Werkzeug security. So, in case of a leak, user's passwords are encripted with a salt length of 8, guaranteeing that even the most advanced computers won't be able to brute-force crack their password.
 
 ![register-page.png](https://i.ibb.co/7yDnmZK/register-page.png)
 
