@@ -47,7 +47,7 @@ When accessing the login page, users get feedback whenever their credentials are
 ![login-page.png](https://i.ibb.co/7rPhdL2/already-registered.png)
 
 ### Automatic reordering
-The Task Manager has automatic features behind the scenes to provide efficient functionality. Users can set a due date to their tasks, they can star task to mark them as a priority, they can check tasks as complete (or uncheck them) and delete tasks directly from the Task Manager page. Starred tasks are automatically brought to the top of the list, while complete tasks are brought to the bottom and color-coded to let users intuitivelly infer the relevance of tasks just by looking at their list. And just as a last touch of optimization, complete tasks cannot be starred or get a new due-date.
+The Task Manager has automatic features behind the scenes to provide efficient functionality. Users can set a due date to their tasks, star tasks to mark them as a priority, check tasks as complete (or uncheck them) and delete tasks directly from the same Task Manager page. Starred tasks are automatically brought to the top of the list, while complete tasks are brought to the bottom and color-coded to let users intuitivelly infer the relevance of tasks just by looking at their list. And just as a last touch of optimization, complete tasks cannot be starred or get a new due-date.
 
 ![automatic-reordering.png](https://i.ibb.co/rFzTd28/automatic-reordering.png)
 
