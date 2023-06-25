@@ -24,7 +24,15 @@ pip install -r requirements.txt
 
 ## Features
 ### Unregistered use
-The application supports unregistered users, who are able to fully utilize all of the features of the Task Manager web-app, and are only not able to save their lists (unless they register to the website). To implement that feature, however, a limitation of the initial version of the web-app had to be overcome, since every list that is created gets registered into the database. That's how the website remembers what tasks belong to which lists (a SQL parent-child relationship). But that created 2 problems: 1. lists also belong to users, and now there were lists that belong to no one; 2. these lists were getting registered to the database, but the user wouldn't have access to them anymore unless they registered to the website. To overcome the first problem, a "save to my lists" button was implemented, so registered users could decide which lists they wanted to keep and which they didn't. And to overcome the latter, the code was modified to periodically delete lists that didn't belong to an user.
+The application supports unregistered users, who are able to fully utilize all of the features of the Task Manager web-app, and are only not able to save their lists (unless they register to the website).
+
+To implement that feature, however, a limitation of the initial version of the web-app had to be overcome, since every list that is created gets registered into the database. That's how the website remembers what tasks belong to which lists (a SQL parent-child relationship). But that created 2 problems: 
+
+1. lists also belong to users, and now there were lists that belong to no one;
+
+2. these lists were getting registered to the database, but the user wouldn't have access to them anymore unless they registered to the website.
+
+To overcome the first problem, a "save to my lists" button was implemented, so registered users could decide which lists they wanted to keep and which they didn't. And to overcome the latter, the code was modified to periodically delete lists that didn't belong to an user.
 
 ![home.png](https://i.ibb.co/F33xG2b/home-page.png)
 
