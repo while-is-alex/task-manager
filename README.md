@@ -57,7 +57,7 @@ Users can share a link to their list with others, who are then able to see all o
 ![protected-list.png](https://i.ibb.co/f2hwHyv/protected-list.png)
 
 ### Due date alert
-When the day when a task is due comes, the label for that date will automatically turn orange in order to call user's attention to that fact.
+When the day when a task is due comes, the label for that date will automatically turn orange in order to call users' attention to that fact.
 
 ![due-date.png](https://i.ibb.co/kgRmSDH/due-date.png)
 
