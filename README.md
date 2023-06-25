@@ -42,7 +42,7 @@ When users register to the website, their e-mail is their unique identifier, and
 ![register-page.png](https://i.ibb.co/7yDnmZK/register-page.png)
 
 ### Authentication
-When accessing the login page, users get feedback whenever their credentials are invalid, as in every try the database is consulted and feedback is flashed to the user. In case the user is trying to register again when they're already registered, the user is redirected to the login page.
+When accessing the login page, users get feedback whenever their credentials are invalid, as in every try the database is consulted and feedback is flashed to the user. And in case the user tries to register again using an e-mail already registered in the database, they're automatically redirected to the login page, letting them know to log in.
 
 ![login-page.png](https://i.ibb.co/7rPhdL2/already-registered.png)
 
