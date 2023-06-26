@@ -1,5 +1,5 @@
 # Task Manager
-A web-application built with Python, Flask, SQL and Bootstrap. Create lists for tasks you need to finish. Set a due date, star important tasks and mark them as complete. Project developed independently.
+A web-application built with Python, Flask, SQL and Bootstrap. Create, read, update and delete lists of tasks you need to finish. Set a due date, star important tasks and mark them as complete. Project developed independently.
 
 ## Getting started
 1. Clone the repository:
