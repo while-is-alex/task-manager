@@ -9,10 +9,10 @@ git clone https://github.com/while-is-alex/task-manager.git
 
 2. Change the directory to the project folder.
 
-3. Create a virtual environment:
+3. Create a virtual environment and activate it:
 ```
 py -m venv venv
-venv/Scripts/activate
+source venv/bin/activate
 ```
 
 4. Install the required packages:
